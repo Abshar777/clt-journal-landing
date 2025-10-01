@@ -1,0 +1,102 @@
+import React from "react";
+
+interface Step {
+  title: string;
+  description: string;
+  imgDark: string;
+  gradient: string;
+  maxWidth?: string;
+}
+
+const stepsData: Step[] = [
+  {
+    title: "Trading Analysis",
+    description: "Our trade analysis offers real statistics based on theoretical exits. Easily see your Exit Performance as a % vs your Best potential exit P&L.",
+   
+    imgDark: "/f1.svg",
+    gradient: "images/gradient/gradient-32.png",
+  },
+  {
+    title: "Reports",
+    description: "Use these insights from your trading journal data to develop a robust trading plan and track your progress over time.",
+
+    imgDark: "/f2.svg",
+    gradient: "images/gradient/gradient-33.png",
+  },
+  {
+    title: "Trading Journal",
+    description: " All entries and exits are displayed on a TradingView chart, complete with drawing and indicator capabilities",
+   
+    imgDark: "/f3.svg",
+    gradient: "images/gradient/gradient-34.png",
+  },
+ 
+];
+
+const Steps: React.FC = () => {
+  return (
+    <section
+      className="relative py-16 md:py-20 lg:py-[100px] bg-background-2 dark:bg-background-5"
+      aria-label="Hero section"
+    >
+      <div className="main-container">
+        <div className="grid grid-cols-12 xl:gap-[60px] gap-y-14 items-start justify-items-center">
+          {/* Left Content */}
+          <div className="col-span-12 lg:col-span-6 lg:sticky lg:top-28">
+            <div className="md:space-y-14 space-y-10 lg:text-left text-center">
+              <div className="space-y-3">
+                <h2 data-ns-animate data-delay="0.1" className="xl:max-w-[479px] w-full xl:mx-0 mx-auto">
+                Trade Smarter 
+with Clt Trading Journal
+                </h2>
+                <p data-ns-animate data-delay="0.2">
+                Our journal empowers traders to find winning strategies and trading niches with comprehensive analysis and intuitive reporting. Tradervue provides the tools you need to track your trades, analyze your performance, and enhance your trading skills.
+                </p>
+              </div>
+              <div data-ns-animate data-delay="0.3">
+                <a
+                  href="features-page-01.html"
+                  className="btn btn-dark hover:btn-green hover:text-white hover:border-0 bg-accent/22 text-center text-white btn-lg"
+                >
+                  <span>Explore all features</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Cards */}
+          <div className="col-span-12 lg:col-span-6">
+            <div className="stack-cards js-stack-cards sm:flex-1 flex-none w-full sm:order-1 order-2">
+              {stepsData.map((step, index) => (
+                <div
+                  key={index}
+                  className="stack-cards__item js-stack-cards__item  p-2 relative rounded-[20px] z-20 flex items-center justify-center sm:max-w-[483px] max-w-full w-full overflow-hidden"
+                >
+                  <figure className={`absolute pointer-events-none -top-[99%] -left-[88%] size-[1000px] -z-10 rotate-[307deg] opacity-50 select-none`}>
+                    <img src={step.gradient} alt="step" />
+                  </figure>
+                  <div style={{backgroundColor:"#2d0a0a"}} className="relative z-10 p-8 rounded-[14px] sm:max-w-[467px] max-w-full w-full space-y-6  bg-card">
+                    <div className="space-y-1">
+                      <p className="text-heading-5 text-secondary dark:text-accent">{step.title}</p>
+                      <p className="">{step.description}</p>
+                    </div>
+                    <figure className="max-w-[403px] w-full rounded-2xl overflow-hidden">
+                
+                      <img
+                        src={step.imgDark}
+                        alt="step"
+                        className="hidden dark:block w-full h-full  "
+                      />
+                    </figure>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Steps;
