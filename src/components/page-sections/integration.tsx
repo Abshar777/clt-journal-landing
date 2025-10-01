@@ -67,6 +67,7 @@ const IntegrationPartners: React.FC<{ className?: string }> = ({ className }) =>
 
   return (
     <section
+    id="integration"
       className={`${className || ""} py-[100px] lg:py-[150px] xl:py-[200px]`}
       aria-label="Integration Partners"
     >

@@ -75,7 +75,7 @@ const services: Service[] = [
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="bg-white dark:bg-background-6 pb-[100px] xl:pb-[200px] pt-[50px] md:pt-[85px] xl:pt-[100px]">
+    <section id="services" className="bg-white dark:bg-background-6 pb-[100px] xl:pb-[200px] pt-[50px] md:pt-[85px] xl:pt-[100px]">
       <div className="main-container">
         <div className="space-y-[40px] md:space-y-[50px] lg:space-y-[60px] xl:space-y-[70px]">
           {/* Heading */}

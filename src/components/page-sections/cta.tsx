@@ -4,6 +4,7 @@ import { ctasvg } from "@/const/ctasvg";
 const Cta: React.FC = () => {
   return (
     <section
+    id="contact"
     style={{
       backgroundRepeat:"no-repeat",
       backgroundSize:"cover",

@@ -22,7 +22,7 @@ const tabs: { label: string; content: TabContent }[] = [
       title: "Customizable Dashboard",
       description:
         "Personalize Tradervue to match your trading style with our customizable dashboard, ensuring a smooth experience. Instantly view past performance and monitor your progress over time.",
-      image: "/g12.svg",
+      image: "/image8.png",
      
       buttonText: "Start learning",
       buttonLink: "learn-page.html",

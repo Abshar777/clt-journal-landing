@@ -36,6 +36,7 @@ const stepsData: Step[] = [
 const Steps: React.FC = () => {
   return (
     <section
+    id="features"
       className="relative py-16 md:py-20 lg:py-[100px] bg-background-2 dark:bg-background-5"
       aria-label="Hero section"
     >

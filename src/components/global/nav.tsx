@@ -3,10 +3,10 @@ import React from "react";
 
 const navItems = [
   { name: "Home", href: "#" },
-  { name: "About", href: "#about" },
+  { name: "features", href: "#features" },
   { name: "Services", href: "#services" },
-  { name: "Pricing", href: "#pricing" },
-  { name: "Contact Us", href: "#contact", isButton: true },
+  { name: "Intgration", href: "#integration" },
+  { name: "contact", href: "#contact", isButton: true },
 ];
 
 const Nav = () => {
