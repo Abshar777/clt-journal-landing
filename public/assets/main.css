@@ -1140,7 +1140,7 @@ body {
   transition: all linear 0.3s;
   background-size: 35px 35px;
   background-position-x: 10rem;
-  /* animation: backgroundP 600s infinite; */
+  animation: backgroundP 600s infinite;
   background-image: linear-gradient(to right, #4b4a4a1f, #0000 1px),
     linear-gradient(#4b4a4a1f, #0000 1px);
 }
