@@ -1136,6 +1136,23 @@ body {
   font-size: var(--text-tagline-1);
   line-height: var(--tw-leading, var(--text-tagline-1--line-height));
 }
+.gridAnim {
+  transition: all linear 0.3s;
+  background-size: 35px 35px;
+  background-position-x: 10rem;
+  /* animation: backgroundP 600s infinite; */
+  background-image: linear-gradient(to right, #4b4a4a1f, #0000 1px),
+    linear-gradient(#4b4a4a1f, #0000 1px);
+}
+@keyframes backgroundP {
+  0% {
+    background-position: 0rem;
+  }
+  100% {
+    background-position: 1000rem;
+  }
+}
+
 
 .details-body ul li:before {
   content: var(--tw-content);
@@ -1720,7 +1737,7 @@ body {
 }
 
 .hero-text-color-2 {
-  background-image: linear-gradient(45deg, #83e7ee, #f9eb57, #83e7ee);
+  background-image: linear-gradient(45deg, #be5858, #fc0202, #a51a5e);
 }
 
 @keyframes textAnimate {
@@ -25035,9 +25052,10 @@ body {
   .dark\:bg-background-2:where(.dark, .dark *) {
     background-color: var(--color-background-2);
   }
+  
 
   .dark\:bg-background-5:where(.dark, .dark *) {
-    background:linear-gradient(to bottom, #8B0100, #1f0707);
+    background:linear-gradient(to bottom, #fff6ea, #f7eaea);
   }
  
 
@@ -25241,7 +25259,7 @@ body {
   }
 
   .dark\:from-background-7:where(.dark, .dark *) {
-    --tw-gradient-from: #420504;
+    --tw-gradient-from: #f7ebea;
     --tw-gradient-stops: var(
       --tw-gradient-via-stops,
       var(--tw-gradient-position),
@@ -26373,12 +26391,12 @@ body {
 }
 
 .nav-item-link:where(.dark, .dark *) {
-  color: #fcfcfc99;
+  color: #746d6d;
 }
 
 @supports (color: color-mix(in lab, red, red)) {
   .nav-item-link:where(.dark, .dark *) {
-    color: color-mix(in oklab, var(--color-accent) 60%, transparent);
+    color:#746d6d;
   }
 }
 

@@ -42,7 +42,7 @@ const IntegrationPartners: React.FC<{ className?: string }> = ({ className }) =>
   const renderLogo = (logo: Logo, index: number, withMargin?: boolean) => (
     <figure
       key={index}
-      className={`size-[100px] p-6 bg-white dark:bg-background-6 rounded-full flex items-center justify-center ${
+      className={`size-[100px] p-6  rounded-full flex items-center justify-center ${
         withMargin ? "ml-8" : ""
       }`}
     >
@@ -59,7 +59,7 @@ const IntegrationPartners: React.FC<{ className?: string }> = ({ className }) =>
           src={logo.darkSrc}
           alt={logo.alt}
           loading="lazy"
-          className="hidden dark:inline-block size-12 object-cover"
+          className="hidden dark:inline-block size-12  object-cover"
         />
       )}
     </figure>
@@ -68,7 +68,8 @@ const IntegrationPartners: React.FC<{ className?: string }> = ({ className }) =>
   return (
     <section
     id="integration"
-      className={`${className || ""} py-[100px] lg:py-[150px] xl:py-[200px]`}
+    style={{backgroundColor:"#F7EBEA"}}
+      className={`${className || ""}  py-[100px] lg:py-[150px] xl:py-[200px]`}
       aria-label="Integration Partners"
     >
       <div className="main-container">
@@ -77,10 +78,10 @@ const IntegrationPartners: React.FC<{ className?: string }> = ({ className }) =>
           <div className="max-w-[1028px] text-center mx-auto space-y-5">
             
             <div className="space-y-3">
-              <h2 data-ns-animate data-delay="0.2">
+              <h2 style={{color:"#8c4b4b"}} data-ns-animate data-delay="0.2">
               Supported Brokers
               </h2>
-              <p
+              <p style={{color:"#746d6d"}}
                 data-ns-animate
                 data-delay="0.3"
                 className="max-w-[582px] mx-auto"

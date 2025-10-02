@@ -60,7 +60,7 @@ const footerMenus = [
 ];
 
 export const Footer = () => (
-  <footer className="bg-secondary dark:bg-background-6  rounded-t-3xl  relative overflow-hidden">
+  <footer className="bg-[#cc0c0c]  rounded-t-3xl  relative overflow-hidden">
     {/* gradients */}
     {/* <figure    style={{filter:"hue-rotate(187deg) !important"}} className="pointer-events-none select-none absolute size-[550px] top-[-17%] md:top-[-25%] xl:top-[-32%] max-[376px]:right-[-83%] right-[-64%] md:right-[-30%] lg:right-[-19%] xl:right-[-9%] bg-top-right rotate-[-30deg]">
       <img

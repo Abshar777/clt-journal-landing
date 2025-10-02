@@ -8,28 +8,75 @@ interface Step {
   maxWidth?: string;
 }
 
+// Sign Up Using Your Mail
+
+// Enter your email address to create an account. You’ll receive a magic link in your inbox – just click it to securely log in and access your dashboard without needing a password.
+
+// 2. Add Account
+
+// Set up your personal profile by adding an account name, profile picture, and basic details. This will personalize your dashboard and make it easier to manage your portfolios.
+
+// 3. Add Portfolio
+
+// Create your first portfolio by entering the assets you want to track or manage. This helps organize your investments in one place.
+
+// 4. Connect
+
+// Link your account with our system so we can start preparing for syncing your broker data.
+
+// 5. Click Auto Sync
+
+// Enable Auto Sync to keep your portfolios updated automatically without needing to enter details manually.
+
+// 6. Choose Broker
+
+// Select your broker from the list of supported platforms. This ensures accurate integration and smooth syncing.
+
+// 7. Follow All Steps
+
+// Complete the on-screen instructions to securely authorize the connection between your broker and your account.
+
+// 8. Connect
+
+// Finalize the setup by clicking Connect. Once done, your broker account will be fully integrated, and your portfolios will start updating in real time.
+
 const stepsData: Step[] = [
   {
-    title: "Trading Analysis",
-    description: "Our trade analysis offers real statistics based on theoretical exits. Easily see your Exit Performance as a % vs your Best potential exit P&L.",
+    title: "sign up using your mail",
+    description: "Enter your email address to create an account. You’ll receive a magic link in your inbox – just click it to securely log in and access your dashboard without needing a password.",
    
-    imgDark: "/f1.svg",
+    imgDark: "/st1.svg",
     gradient: "images/gradient/gradient-32.png",
   },
   {
-    title: "Reports",
-    description: "Use these insights from your trading journal data to develop a robust trading plan and track your progress over time.",
+    title: "add Account",
+    description: "Set up your personal profile by adding an account name, profile picture, and basic details. This will personalize your dashboard and make it easier to manage your portfolios",
 
-    imgDark: "/f2.svg",
+    imgDark: "/st2.svg",
     gradient: "images/gradient/gradient-33.png",
   },
   {
-    title: "Trading Journal",
-    description: " All entries and exits are displayed on a TradingView chart, complete with drawing and indicator capabilities",
+    title: "Add Portfolio",
+    description: "Create your first portfolio by entering the assets you want to track or manage. This helps organize your investments in one place.",
    
-    imgDark: "/f3.svg",
+    imgDark: "/st3.svg",
     gradient: "images/gradient/gradient-34.png",
   },
+  {
+    title: "Connect",
+    description: "Link your account with our system so we can start preparing for syncing your broker data.",
+   
+    imgDark: "/st5.svg",
+    gradient: "images/gradient/gradient-34.png",
+  },
+  {
+    title: "Choose Broker And Follow All Steps To Connect",
+    description: "Select your broker from the list of supported platforms. This ensures accurate integration and smooth syncing.",
+   
+    imgDark: "/st6.svg",
+    gradient: "images/gradient/gradient-34.png",
+  },
+ 
  
 ];
 
@@ -46,18 +93,19 @@ const Steps: React.FC = () => {
           <div className="col-span-12 lg:col-span-6 lg:sticky lg:top-28">
             <div className="md:space-y-14 space-y-10 lg:text-left text-center">
               <div className="space-y-3">
-                <h2 data-ns-animate data-delay="0.1" className="xl:max-w-[479px] w-full xl:mx-0 mx-auto">
-                Trade Smarter 
-with Clt Trading Journal
+                <h2 style={{color:"#8c4b4b"}}
+                 data-ns-animate data-delay="0.1" className="xl:max-w-[479px] w-full xl:mx-0 mx-auto">
+               Simple Steps to Improve Your Trading
                 </h2>
-                <p data-ns-animate data-delay="0.2">
+                <p style={{color:"#746d6d"}} data-ns-animate data-delay="0.2">
                 Our journal empowers traders to find winning strategies and trading niches with comprehensive analysis and intuitive reporting. Tradervue provides the tools you need to track your trades, analyze your performance, and enhance your trading skills.
                 </p>
               </div>
               <div data-ns-animate data-delay="0.3">
                 <a
+                style={{backgroundColor:"#8c4b4b"}}
                   href="features-page-01.html"
-                  className="btn btn-dark hover:btn-green hover:text-white hover:border-0 bg-accent/22 text-center text-white btn-lg"
+                  className="btn btn-dark hover:btn-green hover:text-white hover:border-0 bg-[#8c4b4b] text-center text-white btn-lg"
                 >
                   <span>Explore all features</span>
                 </a>
@@ -76,7 +124,7 @@ with Clt Trading Journal
                   <figure className={`absolute pointer-events-none -top-[99%] -left-[88%] size-[1000px] -z-10 rotate-[307deg] opacity-50 select-none`}>
                     <img src={step.gradient} alt="step" />
                   </figure>
-                  <div style={{backgroundColor:"#2d0a0a"}} className="relative z-10 p-8 rounded-[14px] sm:max-w-[467px] max-w-full w-full space-y-6  bg-card">
+                  <div style={{backgroundColor:"#cc0c0c"}} className="relative z-10 p-8 rounded-[14px] sm:max-w-[467px] max-w-full w-full space-y-6  bg-card">
                     <div className="space-y-1">
                       <p className="text-heading-5 text-secondary dark:text-accent">{step.title}</p>
                       <p className="">{step.description}</p>

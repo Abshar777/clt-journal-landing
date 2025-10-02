@@ -6,15 +6,15 @@ const navItems = [
   { name: "features", href: "#features" },
   { name: "Services", href: "#services" },
   { name: "Intgration", href: "#integration" },
-  { name: "contact", href: "#contact", isButton: true },
+  { name: "contact", href: "#contact", },
 ];
 
 const Nav = () => {
   return (
     <header>
       <div
-      style={{backgroundColor:"#3d3c3c17; backdrop-filter: blur(10px);"}}
-        className="header-one opacity-0   py-2 px-6  rounded-full lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] max-w-[320px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 top-5 flex items-center justify-between     dark:border-stroke-6 bg-accent dark:bg-[rgba(183, 180, 180, 0.04)] "
+      style={{backgroundColor:"rgb(225 127 127 / 9%); backdrop-filter: blur(10px);"}}
+        className="header-one opacity-0   py-2 px-6  rounded-full lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] max-w-[320px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 top-5 flex items-center justify-between     dark:border-stroke-6 bg-accent  "
         data-ns-animate=""
         data-direction="up"
         data-offset={100}
@@ -43,16 +43,7 @@ const Nav = () => {
         <nav className="hidden xl:flex items-center">
           <ul className="flex items-center">
             {navItems.map((item) =>
-              item.isButton ? (
-                <li key={item.name} className="py-2.5">
-                  <a
-                    href={item.href}
-                    className="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 dark:hover:border-stroke-7 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200 dark:text-accent/60 dark:hover:text-accent"
-                  >
-                    {item.name}
-                  </a>
-                </li>
-              ) : (
+             (
                 <li
                   key={item.name}
                   className="relative group/nav cursor-pointer py-2.5"
@@ -120,27 +111,9 @@ const Nav = () => {
             <ul>
               {navItems.map((item) => (
                 <li key={item.name} className="relative space-y-0">
-                  <button className="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
+                  <button className="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-[#746d6d] transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer">
                     <span>{item.name}</span>
-                    {!item.isButton && (
-                      <span className="sub-menu-arrow transition-all duration-300">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={16}
-                          height={16}
-                          viewBox="0 0 16 16"
-                          fill="none"
-                        >
-                          <path
-                            d="M8 12L12 8L8 4"
-                            className="stroke-secondary dark:stroke-accent"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      </span>
-                    )}
+                    
                   </button>
                 </li>
               ))}

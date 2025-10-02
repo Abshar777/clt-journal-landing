@@ -10,7 +10,7 @@ const Cta: React.FC = () => {
       backgroundSize:"cover",
       backgroundImage: "url('"+ctasvg+"')",
     }}
-      className="py-[50px] md:py-20 lg:py-28 dark:bg-background-5 relative overflow-hidden bg-white"
+      className="py-[50px] md:py-20 lg:py-28 bg-[#cc0c0c] relative overflow-hidden "
       aria-label="Use Case Overview"
     >
     

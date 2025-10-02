@@ -11,28 +11,30 @@ import  Testimonials  from "@/components/page-sections/testimonials";
 import { TimeLine } from "@/components/page-sections/timeLine";
 import { Blog } from "@/components/page-sections/blog";
 import  Cta  from "@/components/page-sections/cta";
-import Pricing from "@/components/page-sections/pricing";
 import ContactSection from "@/components/page-sections/contactUs";
 import Steps from "@/components/page-sections/steps";
 import IntegrationPartners from "@/components/page-sections/integration";
 import AboutTabBars from "@/components/page-sections/about-section";
+import Features from "@/components/page-sections/features";
 
 export default function Home() {
 
   return (
  <>
  <Hero/>
+ <Features/>
  <Steps/>
  <Service/>
  <IntegrationPartners/>
  <AboutTabBars/>
+
  {/* <Pricing/> */}
  {/* <TimeLine/> */}
  {/* <Faqs/>
  <Testimonials/>
  <ContactSection/> */}
  
- <Cta/>
+ {/* <Cta/> */}
  </>
   );
 }
