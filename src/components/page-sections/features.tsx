@@ -94,7 +94,7 @@ const Features: React.FC = () => {
   ];
 
   return (
-    <section className="bg-white dark:bg-background-6 pt-[100px] xl:pt-[100px] pb-[100px] md:pb-[85px] xl:pb-[100px]">
+    <section id="features" className="bg-white dark:bg-background-6 pt-[100px] xl:pt-[100px] pb-[100px] md:pb-[85px] xl:pb-[100px]">
       <div className="main-container">
         <div className="space-y-[40px] md:space-y-[50px] lg:space-y-[60px] xl:space-y-[70px] flex flex-col items-center">
           <div className="text-center space-y-5 max-w-[628px] mx-auto">
@@ -102,7 +102,7 @@ const Features: React.FC = () => {
             <div className="space-y-3">
               <h2 className="text-white" data-ns-animate data-delay="0.2">Trade Smarter with Clt Trading Journal</h2>
               <p className="text-white/80" data-ns-animate data-delay="0.3">
-              Our journal empowers traders to find winning strategies and trading niches with comprehensive analysis and intuitive reporting. Tradervue provides the tools you need to track your trades, analyze your performance, and enhance your trading skills.
+              Our journal empowers traders to find winning strategies and trading niches with comprehensive analysis and intuitive reporting. Clt Trading Journal provides the tools you need to track your trades, analyze your performance, and enhance your trading skills.
               </p>
             </div>
           </div>

@@ -2,11 +2,12 @@
 import React from "react";
 
 const navItems = [
-  { name: "Home", href: "#" },
+  { name: "Home", href: "#home" },
   { name: "features", href: "#features" },
+  { name: "steps", href: "#steps" },
   { name: "Services", href: "#services" },
   { name: "Intgration", href: "#integration" },
-  { name: "contact", href: "#contact", },
+  { name: "ai", href: "#ai", },
 ];
 
 const Nav = () => {

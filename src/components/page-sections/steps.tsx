@@ -42,14 +42,14 @@ interface Step {
 
 const stepsData: Step[] = [
   {
-    title: "sign up using your mail",
-    description: "Enter your email address to create an account. You’ll receive a magic link in your inbox – just click it to securely log in and access your dashboard without needing a password.",
+    title: "sign up ",
+    description: "Enter your email address and name and mobile number to create an account. You’ll receive a magic link in your inbox – just click it to securely log in and access your dashboard without needing a password.",
    
     imgDark: "/st1.svg",
     gradient: "images/gradient/gradient-32.png",
   },
   {
-    title: "add Account",
+    title: "Add trade",
     description: "Set up your personal profile by adding an account name, profile picture, and basic details. This will personalize your dashboard and make it easier to manage your portfolios",
 
     imgDark: "/st2.svg",
@@ -57,23 +57,23 @@ const stepsData: Step[] = [
   },
   {
     title: "Add Portfolio",
-    description: "Create your first portfolio by entering the assets you want to track or manage. This helps organize your investments in one place.",
+    description: "then mention the Name of the portfolio, initial capital and currency. ",
    
     imgDark: "/st3.svg",
     gradient: "images/gradient/gradient-34.png",
   },
   {
-    title: "Connect",
-    description: "Link your account with our system so we can start preparing for syncing your broker data.",
+    title: "auto sync",
+    description: "Fill in the details by selecting Mt5 as platform or any platform where you have your trading account. ",
    
-    imgDark: "/st5.svg",
+    imgDark: "/st6.svg",
     gradient: "images/gradient/gradient-34.png",
   },
   {
     title: "Choose Broker And Follow All Steps To Connect",
     description: "Select your broker from the list of supported platforms. This ensures accurate integration and smooth syncing.",
    
-    imgDark: "/st6.svg",
+    imgDark: "/st5.svg",
     gradient: "images/gradient/gradient-34.png",
   },
  
@@ -83,7 +83,7 @@ const stepsData: Step[] = [
 const Steps: React.FC = () => {
   return (
     <section
-    id="features"
+    id="steps"
       className="relative py-16 md:py-20 lg:py-[100px] bg-background-2 dark:bg-background-5"
       aria-label="Hero section"
     >
@@ -98,7 +98,7 @@ const Steps: React.FC = () => {
                Simple Steps to Improve Your Trading
                 </h2>
                 <p style={{color:"#746d6d"}} data-ns-animate data-delay="0.2">
-                Our journal empowers traders to find winning strategies and trading niches with comprehensive analysis and intuitive reporting. Tradervue provides the tools you need to track your trades, analyze your performance, and enhance your trading skills.
+                Our journal empowers traders to find winning strategies and trading niches with comprehensive analysis and intuitive reporting. Clt Trading Journal provides the tools you need to track your trades, analyze your performance, and enhance your trading skills.
                 </p>
               </div>
               <div data-ns-animate data-delay="0.3">
@@ -126,7 +126,7 @@ const Steps: React.FC = () => {
                   </figure>
                   <div style={{backgroundColor:"#cc0c0c"}} className="relative z-10 p-8 rounded-[14px] sm:max-w-[467px] max-w-full w-full space-y-6  bg-card">
                     <div className="space-y-1">
-                      <p className="text-heading-5 text-secondary dark:text-accent">{step.title}</p>
+                      <h3 className="text-heading-5 font-medium uppercase text-secondary dark:text-accent">{step.title}</h3>
                       <p className="">{step.description}</p>
                     </div>
                     <figure className="max-w-[403px] w-full rounded-2xl overflow-hidden">

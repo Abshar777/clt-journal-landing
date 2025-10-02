@@ -16,6 +16,7 @@ import Steps from "@/components/page-sections/steps";
 import IntegrationPartners from "@/components/page-sections/integration";
 import AboutTabBars from "@/components/page-sections/about-section";
 import Features from "@/components/page-sections/features";
+import TrialSection from "@/components/page-sections/trialSection";
 
 export default function Home() {
 
@@ -27,6 +28,7 @@ export default function Home() {
  <Service/>
  <IntegrationPartners/>
  <AboutTabBars/>
+ <TrialSection/>
 
  {/* <Pricing/> */}
  {/* <TimeLine/> */}

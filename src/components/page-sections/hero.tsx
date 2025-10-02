@@ -4,7 +4,7 @@ import Animationsvg from "../ui/animationsvg";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-[url('/hero.png')]  bg-cover bg-top bg-no-repeat overflow-hidden   pt-[170px] md:pt-[206px] md:pb-[100px] pb-[50px]  relative z-20">
+    <section id="home" className="bg-[url('/hero.png')]  bg-cover bg-top bg-no-repeat overflow-hidden   pt-[170px] md:pt-[206px] md:pb-[100px] pb-[50px]  relative z-20">
       <div
         style={{
           backgroundImage: "url('/images/home-page-34/hero-vector.svg')",
