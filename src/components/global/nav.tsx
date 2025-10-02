@@ -25,7 +25,7 @@ const Nav = () => {
           <span className="sr-only">Home</span>
           <figure className="lg:max-w-[100px] lg:block hidden">
             <img
-              src="/logo.png"
+              src="/logob.png"
               alt="NextSaaS"
              
             />
