@@ -15,7 +15,7 @@ const Nav = () => {
     <header>
       <div
       style={{backgroundColor:"rgb(225 127 127 / 9%); backdrop-filter: blur(10px);"}}
-        className="header-one opacity-0   py-2 px-6  rounded-4xl lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] max-w-[340px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 top-5 flex items-center justify-between     dark:border-stroke-6 bg-accent  "
+        className="header-one opacity-0   py-2 px-6  rounded-4xl lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] max-w-[370px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 top-5 flex items-center justify-between     dark:border-stroke-6 bg-accent  "
         data-ns-animate=""
         data-direction="up"
         data-offset={100}
