@@ -33,7 +33,7 @@ const Nav = () => {
           <figure className="max-w-[80px] lg:hidden block">
        
             <img
-              src="/our/logo.png"
+              src="/logob.png"
               alt="NextSaaS"
               className="w-full dark:block hidden"
             />
