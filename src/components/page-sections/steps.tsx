@@ -103,9 +103,9 @@ const Steps: React.FC = () => {
               </div>
               <div data-ns-animate data-delay="0.3">
                 <a
-                style={{backgroundColor:"#8c4b4b"}}
-                  href="ht"
-                  className="btn btn-dark hover:btn-green hover:text-white hover:border-0 bg-[#8c4b4b] text-center text-white btn-lg"
+                // style={{backgroundColor:"#8c4b4b"}}
+                  href="https://journal.clt-academy.com"
+                  className="btn border-0 hover:btn-green hover:text-white hover:border-0 bg-red-500/90 text-white text-center btn-lg"
                 >
                   <span>Explore all features</span>
                 </a>

@@ -183,9 +183,9 @@ const AboutTabBars: React.FC = () => {
               </div>
               <div>
                 <a
-                style={{backgroundColor:"#8c4b4b"}}
+                // style={{backgroundColor:"#8c4b4b"}}
                   href={tab.content.buttonLink}
-                  className="btn btn-dark hover:btn-green hover:text-white hover:border-0 bg-accent/22 text-center text-white btn-lg mt-4"
+                  className="btn border-0 hover:btn-green hover:text-white hover:border-0 bg-red-500 text-white text-center btn-lg mt-6 "
                 >
                   <span>{tab.content.buttonText}</span>
                 </a>

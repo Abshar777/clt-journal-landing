@@ -20,8 +20,9 @@ const HeroSection: React.FC = () => {
             data-delay="0.1"
             className="lg:max-w-[776px] md:max-w-[600px] sm:max-w-[500px] max-w-[380px] mx-auto"
           >
-            <span className="hero-text-gradient hero-text-color-2 block">
-              The Ultimate Trading Journal to Elevate Your Performance
+            <span className="hero-text-gradient capitalize hero-text-color-2 block">
+            With CataLyT transform raw trades into data driven
+            mastery
             </span>
           </h1>
           <p
@@ -29,8 +30,8 @@ const HeroSection: React.FC = () => {
             data-delay="0.2"
             className="lg:max-w-[700px] md:max-w-[600px] sm:max-w-[500px] max-w-[380px] mx-auto text-[#746d6d]"
           >
-            With CataLyT , transform raw trades into data-driven
-            mastery
+          
+            The Ultimate Trading Journal to Elevate Your Performance
           </p>
         
         </div>

@@ -100,7 +100,7 @@ const Features: React.FC = () => {
           <div className="text-center space-y-5 max-w-[628px] mx-auto">
            
             <div className="space-y-3">
-              <h2 className="text-white" data-ns-animate data-delay="0.2">Trade Smarter with <span className="text-primary-500">CataLyT</span></h2>
+              <h2 className="text-white" data-ns-animate data-delay="0.2">Trade Smarter with <span className="text-primary-500">C</span>ata<span className="text-primary-500">L</span><span>y</span><span className="text-primary-500">T</span></h2>
               <p className="text-white/80" data-ns-animate data-delay="0.3">
               CataLyT empowers traders to discover winning strategies and trading niches through comprehensive analysis and intuitive reportingIt provides the tools you need to track your trades, analyze your performance, and improve your trading skills.
               </p>
