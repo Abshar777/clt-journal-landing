@@ -131,7 +131,7 @@ const AboutTabBars: React.FC = () => {
             <button
               key={i}
               onClick={() => setActiveTab(i)}
-              className={`px-3.5 py-2 min-w-16 cursor-pointer text-tagline-2 font-medium border rounded-full dark:bg-background-7 ${
+              className={`px-3.5 py-2 min-w-16 cursor-pointer text-tagline-2 font-medium  rounded-full bg-red-900/10 ${
                 activeTab === i
                 ? "text-secondary"
                   : "text-[#746d6d]"

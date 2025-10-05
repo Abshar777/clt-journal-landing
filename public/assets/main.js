@@ -888,9 +888,9 @@ const tabAnimation = {
       y: 20
     },
     mobile: {
-      activeBg: "#864ffe",
+      activeBg: "#E30405",
       activeColor: "white",
-      activeBorder: "#5a19be",
+      activeBorder: "#E30405",
       scale: 1.05
     }
   },
