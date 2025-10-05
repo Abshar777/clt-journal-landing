@@ -104,7 +104,7 @@ const Steps: React.FC = () => {
               <div data-ns-animate data-delay="0.3">
                 <a
                 style={{backgroundColor:"#8c4b4b"}}
-                  href="https://journal.clt-academy.com"
+                  href="ht"
                   className="btn btn-dark hover:btn-green hover:text-white hover:border-0 bg-[#8c4b4b] text-center text-white btn-lg"
                 >
                   <span>Explore all features</span>
@@ -121,9 +121,9 @@ const Steps: React.FC = () => {
                   key={index}
                   className="stack-cards__item js-stack-cards__item  p-2 relative rounded-[20px] z-20 flex items-center justify-center sm:max-w-[483px] max-w-full w-full overflow-hidden"
                 >
-                  <figure className={`absolute pointer-events-none -top-[99%] -left-[88%] size-[1000px] -z-10 rotate-[307deg] opacity-50 select-none`}>
+                  {/* <figure className={`absolute pointer-events-none -top-[99%] -left-[88%] size-[1000px] -z-10 rotate-[307deg] opacity-50 select-none`}>
                     <img src={step.gradient} alt="step" />
-                  </figure>
+                  </figure> */}
                   <div style={{backgroundColor:"#cc0c0c"}} className="relative z-10 p-8 rounded-[14px] sm:max-w-[467px] max-w-full w-full space-y-6  bg-card">
                     <div className="space-y-1">
                       <h3 className="text-heading-5 font-medium uppercase text-secondary dark:text-accent">{step.title}</h3>
