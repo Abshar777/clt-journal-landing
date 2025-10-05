@@ -62,7 +62,7 @@ const Nav = () => {
         {/* CTA */}
         <div className="xl:flex hidden items-center justify-center">
           <a
-            href="https://wa.link/z7re0z"
+            href="https://journal.clt-academy.com/"
             className="btn btn-md btn-primary hover:btn-white-dark dark:hover:btn-white"
           >
             <span>Get started</span>
@@ -72,7 +72,7 @@ const Nav = () => {
         {/* Mobile Menu Button */}
         <div className="xl:hidden block">
         <a
-            href="https://wa.link/z7re0z"
+            href="https://journal.clt-academy.com/"
             className="btn btn-md btn-primary hover:btn-white-dark dark:hover:btn-white"
           >
             <span>Get started</span>

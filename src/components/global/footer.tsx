@@ -6,8 +6,6 @@ const socialLinks = [
   { name: "Instagram", icon: "images/icons/instagram.svg" },
   { name: "Youtube", icon: "images/icons/youtube.svg" },
   { name: "LinkedIn", icon: "images/icons/linkedin.svg" },
-  { name: "Dribbble", icon: "images/icons/dribbble.svg" },
-  { name: "Behance", icon: "images/icons/behance.svg" },
 ];
 
 // {
@@ -27,33 +25,32 @@ const footerMenus = [
   {
     title: "Company",
     links: [
-      { name: "Home", href: "our-team-page-01.html" },
-      { name: "About", href: "career-page.html" },
-      { name: "Case Studies", href: "case-study-page.html" },
-      { name: "Contact Us", href: "contact-us-page.html" },
+      { name: "Home", href: "#home" },
+      { name: "features", href: "#features" },
+      { name: "steps", href: "#steps" },
+      { name: "Services", href: "#services" },
+      { name: "Intgration", href: "#integration" },
+      { name: "ai", href: "#ai", },
     ],
   },
   {
     title: "Social Links",
     links: [
-      { name: "WhatsApp", href: "https://wa.link/z7re0z" },
-      { name: "Email", href: "mailto:web3DeCodeds@gmail.com" },
-      {
-        name: "Instagram",
-        href: "https://www.instagram.com/delta_blockchain_academy?igsh=MXdtdzdxemJzM2swbA%3D%3D&utm_source=qr",
-      },
+      { name: "WhatsApp", href: "https://wa.me/971564464420" },
+      { name: "Email", href: "mailto:info@clt-academy.com" },
+    
     ],
   },
   {
-    title: "Courses",
+    title: "Journal",
     links: [
       {
-        name: "Crypto Genesis",
-        href: "#",
+        name: "Signup",
+        href: "https://journal.clt-academy.com/",
       },
       {
-        name: "Crypto Mastery",
-        href: "#",
+        name: "Dashboard",
+        href: "https://journal.clt-academy.com/",
       },
     ],
   },
