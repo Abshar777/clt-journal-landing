@@ -43,7 +43,7 @@ interface Step {
 const stepsData: Step[] = [
   {
     title: "sign up ",
-    description: "Enter your email address and name and mobile number to create an account. You’ll receive a magic link in your inbox – just click it to securely log in and access your dashboard without needing a password.",
+    description: "Enter your email, name, and mobile number to create an account. You’ll receive a magic link in your inbox — simply click it to securely log in and access your dashboard without a password.",
    
     imgDark: "/st1.svg",
     gradient: "images/gradient/gradient-32.png",
@@ -98,13 +98,13 @@ const Steps: React.FC = () => {
                Simple Steps to Improve Your Trading
                 </h2>
                 <p style={{color:"#746d6d"}} data-ns-animate data-delay="0.2">
-                Our journal empowers traders to find winning strategies and trading niches with comprehensive analysis and intuitive reporting. Clt Trading Journal provides the tools you need to track your trades, analyze your performance, and enhance your trading skills.
+                CataLyT empowers traders to discover winning strategies and trading niches through comprehensive analysis and intuitive reporting. It provides the tools you need to track your trades, analyze your performance, and improve your trading skills.
                 </p>
               </div>
               <div data-ns-animate data-delay="0.3">
                 <a
                 style={{backgroundColor:"#8c4b4b"}}
-                  href="features-page-01.html"
+                  href="https://journal.clt-academy.com"
                   className="btn btn-dark hover:btn-green hover:text-white hover:border-0 bg-[#8c4b4b] text-center text-white btn-lg"
                 >
                   <span>Explore all features</span>

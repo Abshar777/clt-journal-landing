@@ -15,77 +15,89 @@ interface TabContent {
   buttonLink: string;
 }
 
+
+//  Customizable dashboard. 
+// Personalize your dashboard to match your trading style for a smooth experience. View past performance instantly and monitor your progress over time.”
+//  Advanced analytics 
+// Use advanced market analytics for better trading decisions. Evaluate setups and strategies with our analytical tools. Back-test ideas and assess historical performance using MAE/MFE and best-exit P&L. Export data effortlessly for deeper insight.”
+//  Calendar 
+// Get a clear monthly overview using our calendar view. Easily spot profitable days via color-coding and tap for detailed breakdowns. Simplify your analysis for more informed decisions — ideal for both day and swing traders.
+//  Journal 
+// “Simplify your journaling process with tagging. Log and categorize trades easily for precise analysis and trackable trading behavior. Use our day-trading journal template to monitor your strategies effortlessly. Become a better trader through data-driven insights!”
+//  Fully Customizable
+// Streamline your insights with our filters. Customize your view by trade, criteria, or tags to simplify analysis and make better decisions. Filter by symbol, date range, strategy, market conditions, mistakes, or tags to quickly zoom in on trades of interest.”
+
 const tabs: { label: string; content: TabContent }[] = [
   {
     label: "Dashboard",
     content: {
-      title: "Customizable Dashboard",
+      title: "Customizable dashboard",
       description:
-        "Personalize Tradervue to match your trading style with our customizable dashboard, ensuring a smooth experience. Instantly view past performance and monitor your progress over time.",
+        "Personalize your dashboard to match your trading style for a smooth experience. View past performance instantly and monitor your progress over time.",
       image: "/l1.svg",
      
-      buttonText: "Start learning",
-      buttonLink: "learn-page.html",
+      buttonText: "Get Started Today",
+      buttonLink: "https://journal.clt-academy.com",
     },
   },
   {
     label: "Trades",
     content: {
-      title: "Reduce Bad Trades",
+      title: "Reduce bad trades",
       description:
         "Track mistakes to learn from them, identify preventable trading losses, and refine your strategy for improved performance. Use our risk management tools to set stop-loss prices and monitor your position sizing to minimize large losses.",
       image: "/l3.svg",
      
-      buttonText: "Start learning",
-      buttonLink: "learn-page.html",
+      buttonText: "Get Started Today",
+      buttonLink: "https://journal.clt-academy.com",
     },
   },
   {
     label: "Reports",
     content: {
-      title: "Track every stat",
+      title: "Track every statistic",
       description:
         "Gain insights with detailed reports to identify trends and patterns in your trading. Key metrics, such as win rate and average profit per trade evaluate your performance.",
       image: "/l5.svg",
  
-      buttonText: "Start learning",
-      buttonLink: "learn-page.html",
+      buttonText: "Get Started Today",
+      buttonLink: "https://journal.clt-academy.com",
     },
   },
   {
     label: "Analytics",
     content: {
-      title: "Advanced Analytics",
+      title: "Advanced analytics",
       description:
-        "Utilize advanced market data analytics for optimal trading decisions. Evaluate trade setups and strategies with Tradervue's analytical tools. Back-test ideas and assess historical performance using MAE/MFE and Best Exit P&L. Gain insights with effortless data export.",
+        "Use advanced market analytics for better trading decisions. Evaluate setups and strategies with our analytical tools. Back-test ideas and assess historical performance using MAE/MFE and best-exit P&L. Export data effortlessly for deeper insight.",
       image: "/l1.svg",
      
-      buttonText: "Start learning",
-      buttonLink: "learn-page.html",
+      buttonText: "Get Started Today",
+      buttonLink: "https://journal.clt-academy.com",
     },
   },
   {
     label: "Calendar",
     content: {
-      title: "Calendar View",
+      title: "Calendar view",
       description:
-        "Get a clear monthly overview with Tradervue's calendar view. Easily spot profitable days through color coding and tap for detailed breakdowns of each trading day. Simplify your analysis for more informed decisions. Ideal for both day and swing traders.",
+        "Get a clear monthly overview using our calendar view. Easily spot profitable days via color-coding and tap for detailed breakdowns. Simplify your analysis for more informed decisions — ideal for both day and swing traders.",
       image: "/l2.svg",
      
-      buttonText: "Start learning",
-      buttonLink: "learn-page.html",
+      buttonText: "Get Started Today",
+      buttonLink: "https://journal.clt-academy.com",
     },
   },
   {
     label: "Journal",
     content: {
-      title: "Effortless Journaling and Tagging",
+      title: "Effortless journaling and tagging",
       description:
-        "Simplify your trade journal process with our tagging feature. Easily log and categorize trades for precise analysis and trackable trading behavior. Use our day trading journal template to monitor your strategies effortlessly. Become a better trader through data-driven insights!",
+        "Simplify your journaling process with tagging. Log and categorize trades easily for precise analysis and trackable trading behavior. Use our day-trading journal template to monitor your strategies effortlessly. Become a better trader through data-driven insights!",
       image: "/l1.svg",
      
-      buttonText: "Start learning",
-      buttonLink: "learn-page.html",
+      buttonText: "Get Started Today",
+      buttonLink: "https://journal.clt-academy.com",
     },
   },
   {
@@ -93,11 +105,11 @@ const tabs: { label: string; content: TabContent }[] = [
     content: {
       title: "Fully custimizable",
       description:
-        "Streamline your trading insights with Tradervue's filters. Customize your view by specific trades or criteria to simplify analysis and make better decisions. Filter by symbol, date range, strategy, market conditions, mistakes, or tags to quickly find and analyze trades.",
+        "Streamline your insights with our filters. Customize your view by trade, criteria, or tags to simplify analysis and make better decisions. Filter by symbol, date range, strategy, market conditions, mistakes, or tags to quickly zoom in on trades of interest.",
       image: "/l4.svg",
      
-      buttonText: "Start learning",
-      buttonLink: "learn-page.html",
+      buttonText: "Get Starte Today",
+      buttonLink: "https://journal.clt-academy.com",
     },
   },
  

@@ -19,10 +19,10 @@ const TrialSection: React.FC = () => {
             data-delay="0.1"
             className="mb-3 capitalize"
           >
-             now the journal got more smarter
+             And now the journal is smarter
             <br className="hidden  lg:block" />
             with the
-            <span className="text-primary-500"> power of Ai</span>
+            <span className="text-primary-500"> powered by AI</span>
           </h2>
           <p
             style={{ color: "#746d6d" }}
@@ -30,15 +30,11 @@ const TrialSection: React.FC = () => {
             data-delay="0.2"
             className="mb-8 lg:max-w-[590px] mx-auto"
           >
-            ai will score all your trades, Ai will help you assist in your
-            trading journey by giving recommendations. learning from your
-            trading style. Ai will also try to keep a track on the ways that how
-            you trade, whether the following trade is purely based on emotions,
-            regressive trading, or any particular education required.
+            AI will score all your trades and recommend improvements. It learns your trading style and monitors each trade to detect emotional or regressive decisions, so you can work on the areas that require education.
           </p>
           <div data-ns-animate data-delay="0.3">
             <a
-              href="pricing-page-01.html"
+              href="https://journal.clt-academy.com"
               className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md block w-full md:w-auto md:inline-block text-center mx-auto md:mx-0 text-tagline-2"
             >
               <span>Get started</span>

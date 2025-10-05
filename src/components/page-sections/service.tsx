@@ -14,18 +14,17 @@ interface Service {
 }
 
 
-// Overcome Hesitation with a well-developed trading plan
+// “Overcome hesitation with a well-designed trading plan”
 
-// Manage Emotional 
-// Decision-Making
+// “Manage emotional decision-making”
 
-// Stop poor risk management decisions
+// “Avoid poor risk management decisions”
 
-// Eliminate bad trades and poor decisions
+// “Eliminate bad trades and poor decisions”
 
-// Maximize Trading Opportunities with confident position sizing
+// “Maximize trading opportunities with confident position sizing”
 
-// Aim for Consistent Profitability
+// “Aim for consistent profitability”
 
 const services: Service[] = [
   {
@@ -34,7 +33,7 @@ const services: Service[] = [
     icon: <RiStockFill 
     className={` text-[54px] text-white`}
   />,
-    title: "Overcome Hesitation with a well-developed trading plan",
+    title: "Overcome hesitation with a well-designed trading plan",
     // description: "Track mistakes to learn from them, identify preventable trading losses, and refine your strategy for improved performance. Use our risk management tools to set stop-loss prices and monitor your position sizing to minimize large losses.",
     link: "our-services-details-page.html",
   },
@@ -44,7 +43,7 @@ const services: Service[] = [
     icon:  <MdOutlineFilterCenterFocus 
     className={` text-[54px] text-white`}
   />,
-    title: "Manage Emotional  Decision-Making",
+    title: "Manage emotional decision-making",
     // description: "Gain insights with detailed reports to identify trends and patterns in your trading. Key metrics, such as win rate and average profit per trade evaluate your performance.",
     link: "our-services-details-page.html",
   },
@@ -54,7 +53,7 @@ const services: Service[] = [
     icon: <FaUserShield 
     className={` text-[54px] text-white`}
   />,
-    title: "Stop poor risk management decisions",
+    title: "Avoid poor risk management decisions",
     // description: "Utilize advanced market data analytics for optimal trading decisions. Evaluate trade setups and strategies with Tradervue's analytical tools. Back-test ideas and assess historical performance using MAE/MFE and Best Exit P&L. Gain insights with effortless data export.",
     link: "our-services-details-page.html",
   },
@@ -74,7 +73,7 @@ const services: Service[] = [
     icon: <LuChartColumnIncreasing 
     className={` text-[54px] text-white`}
   />,
-    title: "Maximize Trading Opportunities with confident position sizing",
+    title: "Maximize trading opportunities with confident position sizing",
     // description: "Gain deep insights into your contacts at a glance and easily track",
     link: "our-services-details-page.html",
   },
@@ -84,7 +83,7 @@ const services: Service[] = [
     icon: <FaSackDollar 
     className={` text-[54px] text-white`}
   />,
-    title: "Aim for Consistent Profitability",
+    title: "Aim for consistent profitability",
     // description: "Gain deep insights into your contacts at a glance and easily track",
     link: "our-services-details-page.html",
   },

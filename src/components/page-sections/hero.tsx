@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
             data-delay="0.2"
             className="lg:max-w-[700px] md:max-w-[600px] sm:max-w-[500px] max-w-[380px] mx-auto text-[#746d6d]"
           >
-            With CLT Trading Journal, transform raw trades into data-driven
+            With CataLyT , transform raw trades into data-driven
             mastery
           </p>
         
@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
             className="w-full sm:w-auto text-center sm:text-left"
           >
             <a
-              href="pricing-page-01.html"
+              href="https://journal.clt-academy.com"
               className="btn hover:btn-secondary dark:hover:btn-accent text-center border-0 btn-primary btn-xl md:w-auto w-[90%]"
             >
               <span>Get started Free</span>
